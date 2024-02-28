@@ -1,0 +1,84 @@
+.navbar {
+  /* background-color: #333; */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-logo {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-title {
+  margin: 0;
+}
+.content-container {
+  display: flex;
+}
+/* .column {
+  flex: 1;
+} */
+.award-img {
+  width: 70%;
+}
+.ceremony-img {
+  width: 100%;
+}
+.te-ali-left {
+  text-align: left;
+}
+.product-img {
+  width: 70%;
+}
+
+/* footer section */
+/* Footer.css */
+.fnt-siz-med{
+ font-size: medium;
+}
+.fnt-siz-sml{
+ font-size: small;
+}
+.footer {
+  background-color: red;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-media-link {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  margin: 0 10px; /* Adjust spacing between icons */
+}
+.icon-img {
+  width: 20px;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
+  .social-media {
+    flex-direction: column;
+    align-items: center;
+  }
+.content-container{
+    flex-direction: column;
+}
+  .social-media-link {
+    margin: 10px 0; /* Adjust spacing between icons */
+  }
+}
